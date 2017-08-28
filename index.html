@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Bursting Balloons</title>
+
+		<script language='Javascript'>
+			
+			function startGame(){
+				var game_level = document.getElementById("game_level").value;
+				window.location.href="jogo.html?"+game_level;
+			}
+
+		</script>
+	</head>
+
+	<body>
+	<div>
+		<p>
+		<b>Game Level: </b>
+		<select id="game_level">
+			<option value="1">Easy</option>
+			<option value="2">Normal</option>
+			<option value="3">Hard</option>
+		</select>
+		</p>
+		<br>
+		<img src="imagens/iniciar.png" onclick="startGame()">
+
+
+	</div>
+	</body>
+	
+</html>

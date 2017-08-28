@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Bursting Ballons</title>
+
+		<script src="game.js"></script>
+
+	</head>
+
+	<body onload="startingGame()">
+	<div style="float:left; width: auto; height: 500px; background: #FFF; border: solid 1px #A2A2A2">
+	<table>
+		<tr>
+			<td>
+				<img src="imagens/balao_azul_grande.png">
+			</td>
+			<td>
+				<span id="new_balloon" style="font-size: 40px;"></span>
+			</td>
+		</tr>
+	</table>
+	<br>
+		<table>
+		<tr>
+			<td>
+				<img src="imagens/balao_azul_grande_estourado.png">
+			</td>
+			<td>
+				<span id="bursted_balloon" style="font-size: 40px;"></span>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<table style="width: 140px; height: 132px;">
+		<tr>
+			<td style="background: url('Imagens/cronometro.png'); text-align: center;">
+				<span id="chrono" style="color: red; font-size: 30px; "></span>
+			</td>
+			
+		</tr>
+	</table>
+	</div>
+
+	<div id = "scenario" style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom;"></div>
+	</body>
+	
+</html>
